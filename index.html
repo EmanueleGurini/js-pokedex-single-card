@@ -4,11 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JS Pokedex Single Card</title>
-    <link rel="stylesheet" href=".css/style.css" />
+    <title>Pokemon - Single Card</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <h1>hello, world!</h1>
+    <section class="container">
+      <!-- CARD -->
+      <div class="card">
+        <div class="card__img">
+          <img class="pkm-avatar" src="" alt="Charizard" />
+        </div>
+        <div class="card__info">
+          <h2 class="pkm-name">Charizard</h2>
+          <span class="pkm-id"># 006</span>
+          <p class="pkm-type">Type: Fire</p>
+        </div>
+      </div>
+      <!-- END CARD -->
+
+      <!-- BUTTONS -->
+      <div class="btns">
+        <button class="btn-prev">Prev</button>
+        <button class="btn-next">Next</button>
+      </div>
+      <!-- END BUTTONS -->
+    </section>
+
+    <!-- SCRIPT -->
     <script type="module" src="./js/main.js"></script>
     <script type="module" src="./js/utils.js"></script>
   </body>
